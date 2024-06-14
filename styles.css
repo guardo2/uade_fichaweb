@@ -5,7 +5,8 @@ body {
 }
 
 header {
-    background-color: #BCBCBC;
+    background: rgb(205,213,214);
+    background: linear-gradient(0deg, rgba(205,213,214,1) 0%, rgba(96,94,90,1) 100%);
     color: black;
     padding: 40px;
     text-align: center;
@@ -29,6 +30,9 @@ main {
     margin-bottom: 5vw;
 }
 
+.foto img {
+    border-radius: 15px;
+}
 .lista {
     flex: 1;
     display: flex;
@@ -52,10 +56,12 @@ main {
 
 .lista li span {
     margin-right: 2vw;
+    text-decoration: none;
 }
 
 footer {
-    background-color: #BCBCBC;
+    background: rgb(205,213,214);
+    background: linear-gradient(0deg, rgba(205,213,214,1) 0%, rgba(96,94,90,1) 100%);
     color: black;
     text-align: center;
     padding: 40px 0;
